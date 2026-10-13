@@ -25,7 +25,31 @@ bash <(curl -fsSL https://raw.githubusercontent.com/qishuai6/wealth-shortcut/mai
 
 这是一个 [Claude Code](https://claude.ai/code) 的 Skill，基于硅谷居士的理财著作《财富捷径》的投资理念，为用户提供个人理财咨询和规划服务。
 
-**v2.1 更新（2026-10）**：内容窗口扩展到 2025 年 4 月至 2026 年 10 月（约 280 篇，X/Substack/文学城）。新增：香港开户 vs 境内 QDII 的税负测算、国内美股基金完整排行榜与选基四标准、全球核心资产收益率总表（5-50 年）、科技基金四强对比（VGT/XLK/IYW/QQQ）、借钱投资完整纪律、年金与重疾险分析、中国城市房价跌幅排行、古诗词金句库等。
+### 更新日志
+
+#### v2.1.0（2026-10-13）— 内容窗口前推一年
+
+在 v2.0 的基础上，把语料窗口从「最近半年」扩展到 **2025 年 4 月至 2026 年 10 月（约 280 篇）**，新抓取文学城博客 2025-04~2026-04 的 81 篇文章（含旧编号「理财笔记 #89-#115」系列 26 篇），共扩充 11 个文件：
+
+- **`china.md`**：香港开户 vs 境内 QDII 的完整税负测算（20% 资本利得税让费率优势反转为税后少赚 36 万美元）；国内美股基金完整排行榜与**选基四标准**（费率/规模/历史/**现金比例**）；红利低波基金「鸡肋」结论；国内债券基金精选（050027/000032）；中国城市房价跌幅 14 城排行（全国平均 -33%，郑州 -50%）
+- **`three-fund.md`**：科技基金四强对比表（VGT > XLK > IYW > QQQ）；作者组合 2020-2026 的完整演进时间线（50/50 → 8/92 → 95% 科技/半导体）
+- **`leverage.md`**：借钱投资完整纪律（理财笔记#104）——利率红线 5%、期限安全边际、净收益公式
+- **`psychology.md`**：频繁交易吃掉 71% 收益的测算；性格决定收益率；个股让步底线 5-10%；员工股 vest 即卖（PayPal 案例）；巴菲特最后 10 年也跑输指数；古诗词金句库（11 个场景）
+- **`dca.md`**：嘉信理财择时研究（定投只比完美择时低 11%）；1927-2024 十年期 94% 正收益
+- **`fire.md`**：100 万美元可以早退休吗；中美财务自由比例（美国 10% vs 中国 1%）；2026 省税账户额度
+- **`funds.md`**：全球核心资产收益率总表（5/10/15/20/30/40/50 年）；黄金专题（夏普 0.64、1980 年峰值 28 年解套）
+- **`insurance.md`**：重疾险只买消费型（返还型保费 4.5 倍）；年金不要买（自投组合是年金的 5.5 倍）
+- **`withdraw.md`**：2026 年社安金金额与领取年龄决策
+
+#### v2.0.0（2026-10-13）— 补充最近半年最新思想
+
+基于硅谷居士 2026 年 4-10 月在 X（[@SVScholar](https://x.com/SVScholar)）、Substack（[@svscholar](https://svscholar.substack.com)）和文学城发布的 200+ 篇内容提炼，13 个文件修改 + 4 个新文件：
+
+- **新增 `three-fund.md`（三基金组合）**：2026 年起的官方配置——标普 500（压舱石）+ 信息技术 VGT + 半导体 SMH，按风险承受力分保守/温和/激进三档；重要纠偏：他反对「全仓纳指」，标普 500 才是正统
+- **新增 `china.md`（中国投资者指南）**：QDII 四只（513500/159501/513100/159696）、全成本约 1%/年的透明账本、溢价应对（「唯一能做的事就是加仓」）、公积金与消费贷合规路径、不投 A 股的五段论证链（含 PEG 分析）、二手房「必须尽快卖掉」
+- **新增 `leverage.md`（杠杆与房贷）**：房贷杠杆公式 ROI = R + (R−D)×N、不提前还贷的账、券商融资三条硬约束、杠杆 ETF 是禁区（QLD 夏普 0.58 反而低于无杠杆的 SMH）
+- **新增 `insurance.md`（保险专题）**：「买定投余」——终身寿险保费贵 10-15 倍、年化仅 3%，只买定期寿险
+- **核心思想更新**：散户认命论（散户年化 4-5% vs 指数 13-16%）、波动 ≠ 风险、A股/杠杆 ETF/中概股/比特币/投资房进入反对清单、退休配置 90/10（巴菲特组合 + Estrada 论文验证）
 
 ### 功能
 
@@ -141,7 +165,31 @@ After installation, use in Claude Code: `/wealth-shortcut`
 
 A [Claude Code](https://claude.ai/code) Skill based on the investment philosophy of *"Wealth Shortcut"* (财富捷径) by 硅谷居士 (SVScholar). It provides personal finance consulting and planning powered by Claude AI.
 
-**v2.0 (Oct 2026)**: Beyond the book, this version distills 200+ posts the author published April–October 2026 on X ([@SVScholar](https://x.com/SVScholar)), Substack and his blog — including his Three-Fund Portfolio, the QDII playbook for mainland-China investors, his leverage framework, insurance views, and the 90/10 retirement allocation.
+### Changelog
+
+#### v2.1.0 (2026-10-13) — One more year of content
+
+Extended the content window from "the last 6 months" to **April 2025 – October 2026 (~280 posts)**, adding 81 articles scraped from the author's blog (including the legacy 理财笔记 #89–#115 series), expanding 11 files:
+
+- **`china.md`**: full tax math on opening an HK brokerage account vs. domestic QDII funds (the 20% capital-gains tax reverses the fee advantage into a $360K shortfall); complete rankings of China-listed US-index funds with the four selection criteria (fees / AUM / track record / **cash drag**); dividend-low-vol funds verdict ("barely worth it"); China city home-price decline ranking (national average −33%, Zhengzhou −50%)
+- **`three-fund.md`**: four-way tech-fund comparison (VGT > XLK > IYW > QQQ); the author's full portfolio evolution timeline 2020–2026 (50/50 → 8/92 → 95% tech/semis)
+- **`leverage.md`**: the complete borrowing-to-invest framework (5% rate ceiling, time horizon as safety margin, net-return formula)
+- **`psychology.md`**: frequent trading eats 71% of returns; temperament determines returns; the 5–10% cap for stock-picking; sell RSUs at vest (PayPal case); Buffett underperformed the index in his final decade; a classical-Chinese-poetry quote bank
+- **`dca.md`**: Schwab timing study (DCA lands within 11% of perfect timing); 94% of 10-year windows positive since 1927
+- **`fire.md`**: can $1M fund early retirement; financial-independence rates (US 10% vs. China 1%); 2026 tax-advantaged account limits
+- **`funds.md`**: global core-asset return table across 5–50-year windows; gold deep-dive (Sharpe 0.64, 28 years underwater from the 1980 peak)
+- **`insurance.md`**: only buy term critical-illness insurance (return-of-premium costs 4.5×); avoid annuities (self-managed portfolio ends up 5.5× larger)
+- **`withdraw.md`**: 2026 Social Security amounts and claiming-age decision
+
+#### v2.0.0 (2026-10-13) — The latest six months of thinking
+
+Distilled 200+ posts the author published April–October 2026 on X ([@SVScholar](https://x.com/SVScholar)), Substack and his blog: 13 files updated + 4 new files:
+
+- **New `three-fund.md`**: the official portfolio since 2026 — S&P 500 (ballast) + Info Tech (VGT) + Semiconductors (SMH) in three risk tiers; important correction: he opposes going all-in on Nasdaq 100
+- **New `china.md`**: the QDII playbook (513500/159501/513100/159696), the transparent ~1%/yr total-cost ledger, premium handling ("the only thing we can do is keep buying"), the provident-fund/consumer-loan routes, the five-part case against A-shares (incl. PEG analysis), and "sell second-hand property in China ASAP"
+- **New `leverage.md`**: mortgage leverage formula ROI = R + (R−D)×N, why not to prepay, three hard constraints for margin, and why leveraged ETFs are off-limits
+- **New `insurance.md`**: "buy term and invest the rest" — whole life costs 10–15× more in premiums for ~3% returns
+- **Updated core ideas**: retail investors should "accept fate" (4–5% vs. 13–16% annualized), volatility ≠ risk, A-shares/leveraged ETFs/crypto/rental property added to the no-buy list, 90/10 retirement allocation (Buffett's plan, validated by the Estrada study)
 
 ### Features
 
