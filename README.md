@@ -25,7 +25,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/qishuai6/wealth-shortcut/mai
 
 这是一个 [Claude Code](https://claude.ai/code) 的 Skill，基于硅谷居士的理财著作《财富捷径》的投资理念，为用户提供个人理财咨询和规划服务。
 
-**v2.0 更新（2026-10）**：在书籍理念基础上，补充了硅谷居士 2026 年 4-10 月在 X（[@SVScholar](https://x.com/SVScholar)）、Substack（[@svscholar](https://svscholar.substack.com)）和文学城博客发布的 200 余篇内容，提炼出他的最新思想：三基金组合、中国投资者 QDII 完整方案、杠杆体系、保险观、退休配置 90/10 等。
+**v2.1 更新（2026-10）**：内容窗口扩展到 2025 年 4 月至 2026 年 10 月（约 280 篇，X/Substack/文学城）。新增：香港开户 vs 境内 QDII 的税负测算、国内美股基金完整排行榜与选基四标准、全球核心资产收益率总表（5-50 年）、科技基金四强对比（VGT/XLK/IYW/QQQ）、借钱投资完整纪律、年金与重疾险分析、中国城市房价跌幅排行、古诗词金句库等。
 
 ### 功能
 
