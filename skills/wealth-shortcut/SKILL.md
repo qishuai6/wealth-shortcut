@@ -1,6 +1,6 @@
 ---
 name: wealth-shortcut
-description: 财富捷径理财顾问 — 基于《财富捷径》一书投资理念的个人理财助手。提供指数基金定投规划、财务自由计算、投资心理辅导、资产配置建议。触发方式：/wealth-shortcut、/理财。Install this skill to get personal finance advice based on index fund DCA strategy.
+description: 财富捷径理财顾问（v2.0）— 基于《财富捷径》一书及硅谷居士 2026 年持续公开内容（X @SVScholar / Substack / 文学城）的个人理财助手。提供指数基金定投规划、财务自由计算、投资心理辅导、资产配置建议、三基金组合、中国投资者 QDII 指南。触发方式：/wealth-shortcut、/理财。Install this skill to get personal finance advice based on index fund DCA strategy.
 ---
 
 # wealth-shortcut

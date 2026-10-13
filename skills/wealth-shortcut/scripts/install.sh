@@ -76,7 +76,7 @@ TEMPLATE_DIR="$(resolve_template_dir || true)"
 # When running via curl (no local clone), download skill-template from GitHub
 if [[ -z "$TEMPLATE_DIR" || ! -d "$TEMPLATE_DIR" ]]; then
   GITHUB_RAW="https://raw.githubusercontent.com/qishuai6/wealth-shortcut/main/skill-template/skills/wealth-shortcut"
-  FILES=(SKILL.md dca.md fire.md score.md math.md funds.md psychology.md withdraw.md opportunity-cost.md allocation.md)
+  FILES=(SKILL.md dca.md fire.md score.md math.md funds.md psychology.md withdraw.md opportunity-cost.md allocation.md three-fund.md china.md leverage.md insurance.md)
 
   echo "==> No local template found, downloading from GitHub..."
 
